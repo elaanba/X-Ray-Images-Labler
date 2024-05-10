@@ -1,4 +1,10 @@
-﻿# How to open the app
+Thank the original developer for the efforts he put into developing this app.
+You can find the original application for the thoracic X-ray images labeler for spine cord segmentation here :
+https://github.com/UW-CLEAR-Center/DICOM-Annotator
+
+This new customized version is for image classification tasks. You can put your target labels into the configuration file to adapt the app to your needs.
+Before starting, put your images into the image folder.
+ # How to open the app
 - First, install Anaconda3. You can use conda_install.sh or you can go to https://docs.anaconda.com/anaconda/install/ for more details.
 
 - The app is running in conda virtual environment. To install all required packages, run
