@@ -1,9 +1,27 @@
+# Acknowledge
 Thank the original developer for the efforts he put into developing this app.
 You can find the original application for the thoracic X-ray images labeler for spine cord segmentation here :
 https://github.com/UW-CLEAR-Center/DICOM-Annotator
 
+# Classification labler
 This new customized version is for image classification tasks. You can put your target labels into the configuration file to adapt the app to your needs.
 Before starting, put your images into the image folder.
+and install the following packages:
+pip install SimpleITK
+pip install tifffile
+
+# New version changes list
+1- We put all files into one folder and changed import references to point to the local directory
+2- We changed the application name from spine labeling app to labeling app ( main.py file )
+3- For Multi-user use we added self.OstLabels = ["Normal", "Abnormal", "Borderline"]  to namerules.py file
+4- We set the regions label "region_labels" to blik(configuration.csv file) 
+5- We set image labels and description (configuration.csv file)
+6 -we Disabled vertices to avoid plotting points (MyApp.py file)
+7 - hardware_checkBox.hide() # we hidden the checkbox in region annotation (widget.py)
+8 - remove spine order table choices from the start page (layout.py)
+9 - We remove the label for regions not labeled widgets
+10- remove the table and remove points buttons (layouts file )
+
  # How to open the app
 - First, install Anaconda3. You can use conda_install.sh or you can go to https://docs.anaconda.com/anaconda/install/ for more details.
 
