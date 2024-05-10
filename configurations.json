@@ -1,0 +1,15 @@
+{
+	"input_directory": "images/",
+	"zooming_speed": 1.2,
+	"window_level_sensitivity": 1,
+	"path_for_result_file": "results.csv",
+	"list_region_identifiers": [""],
+	"image_label_description": "ETT Tubes Positioning",
+	"image_label": ["Normal", "Abnormal", "Borderline"],
+	"region_labels":
+	{
+		"checkbox": "",
+		"radiobuttons": [[""]]
+	},
+	"number_bounding_polygon_vertices": 1
+}
